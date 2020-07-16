@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Stylesheets -->
+      <link rel="stylesheet" href="stylesheets/site.css">
+      <link rel="stylesheet" href="stylesheets/search.css">
+      <link rel="stylesheet" href="stylesheets/results.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      
+      <!-- Scripts -->
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <script src="scripts/search.js"></script>
+
+      <!-- Title -->
+      <title>Game Recommend</title>
+
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="https://img.icons8.com/android/24/000000/controller.png"/>  <!-- https://icons8.com/icons/set/video-game -->
+  </head>
+
+  <body class="site">
+    <div class="wrap">
+      <h2 style="text-align: center;">Game Recommend</h2>
+      <div class="search">
+        <input type="text" placeholder="Search . . ." class="searchTerm">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="dropdown-content">
+        <div id="ddElements"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- browser-sync start --server --files "stylesheets/*.css, scripts/*.js, *.html" -->

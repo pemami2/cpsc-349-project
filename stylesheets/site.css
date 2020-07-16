@@ -1,0 +1,16 @@
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.site-content {
+    flex: 1 0 auto;
+}
+
+.site {
+    display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+    margin: auto;
+    padding: 1em 0 1em 0;
+}

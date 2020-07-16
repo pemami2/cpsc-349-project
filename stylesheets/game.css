@@ -1,0 +1,22 @@
+.custom-card-title {
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+
+.custom-header-button {
+    float: right;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-game-text {
+    font-weight: bold !important;
+}
+
+.view {
+    height: 100%;
+}
