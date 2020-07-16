@@ -26,5 +26,11 @@ $(document).ready(function(){
             $('#ddElements').empty(); // Clear Drop-Down List
         }
     });
+
+    $(this).on('keydown', function(event) {
+        if (event.key == "Escape") {
+            $('#ddElements').empty();   // Clear Drop-Down List
+        }
+    });
 });
 
